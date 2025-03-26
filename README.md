@@ -1,3 +1,13 @@
+# 📸 Mini Photography Portfolio  
+
+This is a photography portfolio website main page created as part of an assignment. It presents a small selection of my photos in a structured way.  
+
+## 🌎 Live Preview  
+View the project here: [Live on CodeSandbox](https://codesandbox.io/p/sandbox/milestone-self-evaluation-build-a-website-forked-nqhfmq)  
+
+## 🛠️ Technologies Used  
+- HTML & CSS  
+
 ## Technical Specifications 
 
 ### Navbar
