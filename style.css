@@ -1,0 +1,197 @@
+/* DEBUG */
+/* * {
+    background-color: black !important;
+    color: black !important;
+    border: 2px solid red !important;
+} */
+
+body {
+  color: #e8f5f3;
+  background-color: #200e01;
+  font-family: "Arial", sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Nothing You Could Do", sans-serif;
+}
+
+p {
+  font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #000000;
+  padding: 15px;
+  height: 50px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  gap: 20px; /* Space between items */
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a,
+.nav-list p {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: "Comfortaa";
+}
+
+.nav-list a:hover {
+  background-color: #645a4a;
+  font-family: "Nothing You Could Do";
+  font-weight: bold;
+  background: linear-gradient(45deg, #000000, #200e01, #000000);
+}
+
+/* Active (non-clickable) link */
+.nav-list p {
+  font-family: "Nothing You Could Do";
+  background: linear-gradient(45deg, #000000, #200e01, #000000);
+  font-weight: bold;
+  cursor: default; /* Makes it clear it's not clickable */
+  margin-top: 0px;
+}
+
+.titlelogo {
+  width: 40%;
+}
+
+header {
+  margin: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 236, 207);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.intro-text {
+  text-align: center;
+}
+
+header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+header h1 {
+  color: #e6b991;
+  font-size: 36px;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: black; /* Change color */
+  width: 100%; /* Full width */
+  margin: 0px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  background-image: url("assets/community_1.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Overlay for better text readability */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent overlay */
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative; /* Ensures text is above overlay */
+  z-index: 1;
+  max-width: 80%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  opacity: 0.9; /* Slight transparency for aesthetics */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+}
+
+.about {
+  width: 80%; /* Adjust width */
+  margin: 0 auto; /* Center section */
+  line-height: 1.6;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about img {
+  width: 250px; /* Adjust as needed */
+  height: auto;
+  float: left; /* Change to 'right' if you want the image on the right */
+  margin-right: 20px; /* Spacing between text and image */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.about p {
+  text-align: justify;
+}
+
+/* Responsive: Stack image and text on smaller screens */
+@media (max-width: 768px) {
+  .about img {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
+
+#donation {
+  color: #f7567c;
+}
+
+h5 {
+  text-decoration: line-through;
+}
+
+address {
+  font-weight: bold;
+}
