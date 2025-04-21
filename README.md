@@ -2,9 +2,6 @@
 
 This is a photography portfolio website main page created as part of an assignment. It presents a small selection of my photos in a structured way.  
 
-## 🌎 Live Preview  
-View the project here: [Live on CodeSandbox](https://codesandbox.io/p/sandbox/milestone-self-evaluation-build-a-website-forked-nqhfmq)  
-
 ## 🛠️ Technologies Used  
 - HTML & CSS  
 
@@ -29,7 +26,3 @@ View the project here: [Live on CodeSandbox](https://codesandbox.io/p/sandbox/mi
 - Use at least 2 custom fonts from Google Fonts or `.ttf` files
 - Use a color palette generator like [Coolers](https://coolors.co/) to give your page a cohesive theme 
 - Plug your Replit preview window URL into [WAVE](https://wave.webaim.org/) to check the accessibility.
-
-## LevelUp: 
-- Use responsive units and the CSS clamp() function to size the text and images responsively
-- Add a hover transition to any element of your choosing
